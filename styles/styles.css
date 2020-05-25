@@ -1,0 +1,294 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    outline: none;
+}
+
+
+body {
+    font-family: "Open Sans";
+    font-size: 12px;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    word-wrap: break-word;
+    font-weight: 400;
+}
+
+.nav-style {
+    position: relative;
+}
+
+.toggle-label {
+    font-family: "Open Sans";
+    font-size: 22px;
+    line-height: 1.8;
+    letter-spacing: 0.5px;
+    word-wrap: break-word;
+    font-weight: 400;
+    color: white;
+    opacity: .7;
+}
+
+.toggle-label:hover {
+    color: rgb(95, 95, 95);
+    text-decoration: none;
+}
+
+@media (max-width: 1040px) {
+.nav-style {
+    display: block;
+}
+}
+
+.about, 
+h1, 
+.lead {
+    font-family: "Montserrat";
+    text-transform: uppercase;
+    z-index: -1;
+}
+
+.h1 {
+    margin-top: 5%;
+    color: white;
+    font-size: 48px;
+}
+
+.lead {
+    margin-bottom: 5%;
+    color: white;
+    opacity: .7;
+}
+
+/* .email {
+    text-transform: lowercase;
+    color: white;
+    opacity: .7;
+    font-size: 33px;
+    margin-top: 10%;
+    margin-bottom: 0px;
+} */
+
+.jumbo-line {
+    border-top: 1px solid rgb(95, 95, 95);
+}
+
+.button-top {
+    border: 2px solid white;
+    color: white;
+    opacity: .7;
+    padding: 7px 21px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-top:hover {
+    color: white;
+    background-color: rgb(95, 95, 95);;
+}
+
+.first-page {
+    margin-left: 1%;
+    width: 100%;
+}
+
+.label {
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.about {
+    display: flex;
+}
+
+.line {
+    width: 1%;
+    height: 1%;
+}
+
+.my-text {
+    padding-top: 2%;
+    padding-left: .5%;
+    font-size: 200%;
+    width: 100%;
+}
+
+.about-me-img {
+    border-right: 12px solid rgb(95, 95, 95);
+    border-bottom: 12px solid rgb(95, 95, 95);
+    height: 100%;
+}
+
+.intro-adds {
+    display: flex;
+    flex-direction: column;
+}
+
+.summary {
+    font-size: 25px;
+    margin-left: 15%;
+    height: 100%;
+}
+
+.summary2 {
+    font-size: 23px;
+    margin-left: 15%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 5%;
+    margin-right: 0px;
+    width: 100%;
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2%;
+    width: 60%;
+}
+
+.my-skills {
+    background-color: rgb(243, 242, 242);
+}
+
+.logos {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 2%;
+}
+
+.logo1 {
+    width: 30%;
+    height: 70%;
+    margin-bottom: 15%;
+}
+
+.logo2 {
+    width: 30%;
+    height: 70%;
+    margin-bottom: 15%;
+}
+
+.projects {
+    margin-top: 1%;
+}
+
+.separate {
+    margin-bottom: 2%;
+}
+
+.contact-details {
+    margin-top: 1%;
+    background-color: rgb(245, 245, 245);
+}
+
+.contact-info {
+    margin-top: 1%;
+    margin-left: 2%;
+    padding-bottom: 2%;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 990px) {
+    .about-me-img {
+        display: none;
+    }
+  }
+
+  @media only screen and (max-width: 990px) {
+    .summary, 
+    .summary2 {
+        font-size: 20px;
+        margin-left: 10%;
+        height: 100%;
+    }
+  }
+
+@media only screen and (max-width: 651px) {
+    .button-top {
+        border: 2px solid white;
+        color: white;
+        opacity: .7;
+        padding: 5px 5px 5px 5px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+}
+
+  @media only screen and (max-width: 573px) {
+    .summary, 
+    .summary2 {
+        font-size: 15px;
+        margin-left: 10%;
+        margin-right: 5%;
+        height: 100%;
+    }
+
+    .my-text {
+        padding-top: 1%;
+        padding-left: .5%;
+        font-size: 200%;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 477px) {
+    .my-text {
+        padding-top: 0px;
+        padding-bottom: 1%;
+        padding-left: .5%;
+        font-size: 180%;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 415px) {
+    .button-top {
+        border: 2px solid white;
+        color: white;
+        opacity: .7;
+        padding: 5px 5px 5px 5px;
+        font-size: 10px;
+        cursor: pointer;
+    }
+}
+
+
+  @media only screen and (max-width: 387px) {
+    .my-text {
+        padding-top: 0px;
+        padding-bottom: 3%;
+        padding-left: .5%;
+        font-size: 160%;
+        width: 100%;
+    }
+  }
+
+  @media only screen and (max-width: 336px) {
+    .button-top {
+        border: 2px solid white;
+        color: white;
+        opacity: .7;
+        padding: 5px 5px 5px 5px;
+        font-size: 8px;
+        cursor: pointer;
+    }
+  }
+
+  @media only screen and (max-width: 291px) {
+    .button-top {
+        border: 2px solid white;
+        color: white;
+        opacity: .7;
+        padding: 5px 5px 5px 5px;
+        font-size: 6px;
+        cursor: pointer;
+    }
+  }

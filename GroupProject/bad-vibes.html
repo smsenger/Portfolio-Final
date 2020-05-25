@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="bad-vibes.css" rel="stylesheet" type="text/css" />
+  <!-- jquery js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+  <title>badVibesOnly</title>
+</head>
+
+<!-- body with gif background and a banner in carousel format-->
+<body class=bodyBadVibes background="https://media.giphy.com/media/6wpHEQNjkd74Q/giphy.gif">
+
+  <!-- link back to good vibes page -->
+  <ul class="top-right nav justify-content-center" style="width: 100vw;">
+    <li class="nav-item">
+      <a href="index.html" class="btn btn-secondary btn-lg btn-bloc" id="linkToGoodVibes">To Good Vibes</a>
+    </li>
+  </ul>
+    
+
+      <div style="width: 100vw;">
+        <img src="badvibesheader.jpg" class="d-block w-100" alt="..." id="header-img" style="width: 100vw;">
+      </div>
+
+
+    <div class="row d-flex justify-content-around position-row top-container">
+    <!-- card containing depressing images with dad jokes -->
+    <div class="card sadCard" style="width: 17rem;">
+      <img src="depression.jpg" class="card-img-top" id="sadPic" alt="sad image">
+      <p class="card-text jokeSetup">Prepare to NOT be amused...</p>
+      <h5 class="card-title jokePunchline"></h5>
+      <div class="btn-group" role="group" arial-label="quote button">
+        <button type="button" class="btn btn-secondary text-dark button1" id="click-quote2">Dad's Worst</button>
+      </div>
+    </div>
+
+    <!-- card containing creepy cat gif -->
+    <div class="card gifCard" style="width: 17rem;"></div>
+
+    <!-- card containing spotify player inside iframe -->
+    <div class="card angryMusicCard" id="spotify-player">
+      <iframe class="spotify-player" src="https://open.spotify.com/embed/playlist/7ABD15iASBIpPP5uJ5awvq" width="320"
+        height="750" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    </div>
+    </div>
+
+    <div class="row d-flex justify-content-around align-items-center position-row bottom-container">
+      <ul class="top-right nav justify-content-center" style="width: 100vw;">
+        <li class="nav-item">
+    <!-- subscribe form -->
+    <form>
+      <div class="form-group emailForm d-flex flex-xl-row justify-content-center">
+        <input title="email" name="email" required class="form-control" id="exampleInputEmail1"
+          oninvalid="this.setCustomValidity('No, like this: something@something.com')" type="email" class="form-control"
+          oninput="this.setCustomValidity('')"
+          pattern="[a-z0-9\._%+\-]+@[a-z0-9\.\-]+\.[a-z]{2,}$" id="exampleInputEmail1" aria-describedby="emailHelp"
+          placeholder="To all tortured souls: enter email for more bad vibes.">
+        <small id="emailHelp" class="form-text text-muted"></small>
+        <button type="submit" class="btn btn-danger text-dark subscribeButton">SUBSCRIBE</button>
+      </div>
+    </form>
+        </li>
+      </ul>
+      <!-- link back to goodvibes page -->
+      <ul class="top-right nav justify-content-center" style="width: 100vw;">
+        <li class="nav-item">
+      <a href="index.html" class="btn btn-danger btn-sm" id="linkToGoodVibes2">To Good Vibes</a>
+      </li>
+      </ul>
+    </div>
+      <script src="bad-vibes.js"></script>
+</body>
+
+</html>

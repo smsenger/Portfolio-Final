@@ -1,0 +1,51 @@
+<%- include ('partials/head.ejs') %>
+<h2 class="title"><%= title %></h2>
+<!--<button type="button" value="click" class="first-add">Add task</button>-->
+    <div class="outer-div">
+        <!-- <form>
+            <div class="form-row">
+                <div class="col" id="format-form2">
+                    <input type="text" class="form-control" id="description" name="item" placeholder="DetailSpace"
+                        required>
+                    <input type="submit" value="Add">
+                </div>
+            </div>
+        </form> -->
+            <form action="/api/todos?form=true" method="POST">
+            <div class="col top-form" id="format-form2">
+                    <input type="text" class="form-control top-input" id="todo" name="todo" placeholder="Enter a Task" style="border-radius: 0;"/>
+                    <button type="submit" class="top-button" id="submit">Add</button>
+                </div>
+            </form>
+        <div class="task-item">
+            <% taskItems.forEach(todo => { %>
+            <div>
+                <div class="col" id="format-form2">
+                    <form action="/api/todos/<%= todo.id %>?form=true&_method=put" method="POST" id="edit">
+                        <input type="text" class="form-control" id="todo-<%= todo.id %>" name="todo" value="<%= todo.todo %>" style="border-radius: 0;">
+                        <button type="submit" id="submit">Edit</button>
+                    </form>
+
+                    <form action="/api/todos/<%= todo.id %>?form=true&_method=delete" <%= todo.id %> method="POST"
+                        id="delete">
+                        <button type="submit" class="delete" id="submit">Delete</button>
+                    </form>
+
+                </div>
+            </div>
+            <% }) %>
+        </div>
+
+        <!-- <div class="button-div1">
+                <button type="button" value="click" class="collapsible button button5"><strong>Click</strong> for task
+                    details</button>
+                <div> -->
+        <!-- <ul id="content">
+            <% taskItems.forEach(details => { %>
+            <li><%= details.details %></li>
+            <% }) %>
+        </ul> -->
+    </div>
+</div>
+</div>
+<%- include ('partials/pageend.ejs') %>

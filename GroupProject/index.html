@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="index.css" rel="stylesheet" type="text/css" />
+  <!-- jquery js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap" rel="stylesheet">
+  <title>Good Vibes!</title>
+</head>
+
+<body>
+
+
+
+
+  <ul class="top-right nav justify-content-center" style="width: 100vw;">
+    <li class="nav-item">
+      <a href="https://www.boredpanda.com/topics/cute-puppies/?utm_source=google&utm_medium=organic&utm_campaign=organic"
+        class="nav-link active" target="_blank">Puppies!</a>
+    </li>
+    <li class="nav-item">
+      <a href="bad-vibes.html" class="nav-link active">Bad Vibes</a>
+    </li>
+    <li class="nav-item">
+      <a href="https://www.youtube.com/watch?v=vgQidVzdneE&t=94s" class="nav-link active" tabindex="-1"
+        aria-disabled="true" target="_blank">The
+        Coolest</a>
+    </li>
+    <li class="nav-item">
+
+      <form>
+        <div class="form-group" id="nav-container">
+          <input title="email" name="email" required class="form-control" id="exampleInputEmail1"
+            oninvalid="this.setCustomValidity('No, like this: something@something.com')" type="email"
+            oninput="this.setCustomValidity('')"
+            class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="exampleInputEmail1"
+            aria-describedby="emailHelp" placeholder="Sign up to our daily email list!">
+          <small id="emailHelp" class="form-text text-muted" id="form-font"></small>
+          <button type="submit" class="btn btn-secondary btn-sm form-font">Submit</button>
+        </div>
+      </form>
+    </li>
+  </ul>
+
+  <div class="carousel-inner Container">
+    <div class="carousel-item active carousel-width">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="baloons.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-md-block head">
+            <h1 class="head-text">Good Vibes!</h1>
+            <p class="comment-text">Boost your mood in the positivity zone!</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="Container">
+        <div class="row d-flex justify-content-around position-row myContainer">
+          <div class="card kittyCard" style="width: 18rem;">
+            <img src="kittyplaceholder.jpg" class="card-img-top" id="kittyPic" alt="foxy image">
+            <h5 class="card-title" id="author">Oscar Wilde</h5>
+            <p class="card-text" id="affirmation">Be yourself; everyone else is already taken.</p>
+            <button type="button" class="btn btn-outline-success btn-lg footer" id="click-quote">Click for a
+              quote!</button>
+          </div>
+
+
+          <div class="card yodaCard" style="width: 18rem;">
+            <img src="yoda.jpg" class="card-img-top" id="yodaPic" alt="yoda image">
+            <h5 class="yodish" id="translation">Yoda's version...</h5>
+            <p class="card-text" id="yoda-text">Yourself you should be. Taken everyone else is.</p>
+
+          </div>
+
+          <div class="card" id="spaceCard" style="width: 18rem; border-radius: 2em; margin-bottom: 2vh;">
+            <img src="spaceplaceholder.jpg" alt="space image" class="card-img-top" id="spaceImage" />
+            <p class="ml--3 space-place">The majesty of space... NASA's Astronomy Image of the Day</p>
+
+            <button type="button" class="btn btn-outline-success btn-lg footer" id="space-quote">Click for the
+              image!</button>
+          </div>
+        </div>
+
+        <div class="row d-flex justify-content-around position-row myContainer container2">
+          <div id="wrapper-container">
+            <div class="card corner-wrapper" id="spotify-player">
+              <iframe class="spotify-player" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWYBO1MoTDhZI"
+                width="320" height="750" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
+          </div>
+
+          <div class="card" id="beach-card" style="width: 18rem; border-radius: 2em; padding: 10px; height: 780px;">
+            <img src="goodvibes2.jpg" class="card-img-top" class="beach-pic" alt="beach image"
+              style="border-radius: 2em; padding: 10px; height: 100%; border-radius: 2em;">
+          </div>
+
+          <div class="card" id="chuckCard" style="width: 18rem;">
+            <img src="chuck-norris.jpg" class="card-img-top" id="chuckPic" alt="chuck norris image">
+            <p class="card-text" id="chuck-text">Chuck Norris threw a grenade and killed 50 people. Then it exploded.
+            </p>
+            <button type="button" class="btn btn-outline-success btn-lg footer" id="click-chuck">Click for Chuck
+              Norris!</button>
+          </div>
+
+        </div>
+      </div>
+
+
+
+      <script src="index.js"></script>
+</body>
+
+</html>

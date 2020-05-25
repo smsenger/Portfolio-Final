@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- <%- include ('partials/head.ejs') %> to include content from partials/head file -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <title><%= title %></title>
+    </head>
+
+    <body>
+        <h1><%= title %></h1>
+        <p>Today's Special is</p>
+        <ul>
+            <% specials.forEach(special => { %> 
+            <li><%= special.special %></li>
+            <% }) %>
+        </ul>
+
+    </body>
+
+</html>

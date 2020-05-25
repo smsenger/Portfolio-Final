@@ -1,0 +1,34 @@
+<%- include ('partials/head.ejs') %>
+<h1><%= title %></h1>
+
+<% if (submitted) { %>
+<div class="card">
+    <div class="card-body">
+        Thank you for your submission. I will respond as soon as possible.
+    </div>
+</div>
+<% } else { %>
+<form action="./contact" method="post">
+    <div class="form-group">
+        <label for="colFormLabel email" class="col-sm-2 col-form-label">Email</label>
+        <input type="email" oninvalid="this.setCustomValidity('No, like this: something@something.com')" type="email"
+            oninput="this.setCustomValidity('')" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" class="form-control"
+            id="email" name="email" required aria-describedby="emailHelp" placeholder="username@email.com">
+    </div>
+
+    <div class="form-group">
+        <label for="name" class="col-sm-2 col-form-label">Name</label>
+        <input type="text" name="name" class="form-control" id="name"
+            oninvalid="this.setCustomValidity('Please enter your name.')" or="formGroupExampleInput"
+            oninput="this.setCustomValidity('')" required placeholder="first name + last name">
+    </div>
+
+    <div class="form-group">
+        <label for="comments">Comments</label>
+        <textarea type="text" name="comments" class="form-control" id="comments" rows="4" cols="50" required minlength="2"
+            aria-describedby="emailHelp" placeholder="Please leave questions or comments here."></textarea>
+    </div>
+    <button type="submit" class="btn btn-primary mb-2">Submit</button>
+</form>
+<% } %>
+<%- include ('partials/close.ejs') %>
