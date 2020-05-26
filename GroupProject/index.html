@@ -40,12 +40,12 @@
 
       <form>
         <div class="form-group" id="nav-container">
-          <input title="email" name="email" required class="form-control" id="exampleInputEmail1"
+          <input title="email" name="email" required class="form-control"
             oninvalid="this.setCustomValidity('No, like this: something@something.com')" type="email"
             oninput="this.setCustomValidity('')"
-            class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" id="exampleInputEmail1"
+            class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
             aria-describedby="emailHelp" placeholder="Sign up to our daily email list!">
-          <small id="emailHelp" class="form-text text-muted" id="form-font"></small>
+          <small class="form-text text-muted" id="form-font"></small>
           <button type="submit" class="btn btn-secondary btn-sm form-font">Submit</button>
         </div>
       </form>
@@ -65,9 +65,9 @@
       </div>
 
       <div class="Container">
-        <div class="row d-flex justify-content-around position-row myContainer">
-          <div class="card kittyCard" style="width: 18rem;">
-            <img src="kittyplaceholder.jpg" class="card-img-top" id="kittyPic" alt="foxy image">
+        <div class="row d-flex justify-content-around position-row my-container">
+          <div class="card kitty-card" style="width: 18rem;">
+            <img src="kittyplaceholder.jpg" class="card-img-top" id="kitty-pic" alt="kitty image">
             <h5 class="card-title" id="author">Oscar Wilde</h5>
             <p class="card-text" id="affirmation">Be yourself; everyone else is already taken.</p>
             <button type="button" class="btn btn-outline-success btn-lg footer" id="click-quote">Click for a
@@ -75,15 +75,15 @@
           </div>
 
 
-          <div class="card yodaCard" style="width: 18rem;">
-            <img src="yoda.jpg" class="card-img-top" id="yodaPic" alt="yoda image">
+          <div class="card yoda-card" style="width: 18rem;">
+            <img src="yoda.jpg" class="card-img-top" id="yoda-pic" alt="yoda image">
             <h5 class="yodish" id="translation">Yoda's version...</h5>
             <p class="card-text" id="yoda-text">Yourself you should be. Taken everyone else is.</p>
 
           </div>
 
-          <div class="card" id="spaceCard" style="width: 18rem; border-radius: 2em; margin-bottom: 2vh;">
-            <img src="spaceplaceholder.jpg" alt="space image" class="card-img-top" id="spaceImage" />
+          <div class="card" id="space-card" style="width: 18rem; border-radius: 2em; margin-bottom: 2vh;">
+            <img src="spaceplaceholder.jpg" alt="space image" class="card-img-top" id="space-image" />
             <p class="ml--3 space-place">The majesty of space... NASA's Astronomy Image of the Day</p>
 
             <button type="button" class="btn btn-outline-success btn-lg footer" id="space-quote">Click for the
@@ -91,7 +91,7 @@
           </div>
         </div>
 
-        <div class="row d-flex justify-content-around position-row myContainer container2">
+        <div class="row d-flex justify-content-around position-row my-container container-2">
           <div id="wrapper-container">
             <div class="card corner-wrapper" id="spotify-player">
               <iframe class="spotify-player" src="https://open.spotify.com/embed/playlist/37i9dQZF1DWYBO1MoTDhZI"
@@ -104,8 +104,8 @@
               style="border-radius: 2em; padding: 10px; height: 100%; border-radius: 2em;">
           </div>
 
-          <div class="card" id="chuckCard" style="width: 18rem;">
-            <img src="chuck-norris.jpg" class="card-img-top" id="chuckPic" alt="chuck norris image">
+          <div class="card" id="chuck-card" style="width: 18rem;">
+            <img src="chuck-norris.jpg" class="card-img-top" id="chuck-pic" alt="chuck norris image">
             <p class="card-text" id="chuck-text">Chuck Norris threw a grenade and killed 50 people. Then it exploded.
             </p>
             <button type="button" class="btn btn-outline-success btn-lg footer" id="click-chuck">Click for Chuck

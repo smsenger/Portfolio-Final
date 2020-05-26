@@ -44,13 +44,13 @@ input[placeholder="Subscribe to our daily email!"] {
     text-align: left;
 }
 
-.myContainer {
+.my-container {
     margin-top: -100px;
     margin-bottom: 2vh;
     background-size: 100%;
 }
 
-.container2 {
+.container-2 {
     margin-top: 2vh;
 }
 
@@ -87,14 +87,14 @@ input[placeholder="Subscribe to our daily email!"] {
     
 }
 
-.kittyCard {
+.kitty-card {
     padding: 10px;
     height: 780px;
     border-radius: 2em;
     margin-bottom: 2vh;
 }
 
-#kittyPic {
+#kitty-pic {
     border-radius: 2em;
     height: 450px;
 }
@@ -110,7 +110,7 @@ input[placeholder="Subscribe to our daily email!"] {
     margin-top: 1vh;
 }
 
-.yodaCard {
+.yoda-card {
     height: 780px;
     border-radius: 2em;
     padding: 10px;
@@ -128,19 +128,19 @@ input[placeholder="Subscribe to our daily email!"] {
     margin-top: 1vh;
 }
 
-#yodaPic {
+#yoda-pic {
     border-radius: 2em;
     height: 59.7%;
 }
 
-#spaceCard {
+#space-card {
     height: 780px;
     border-radius: 2em;
     padding: 10px;
     margin-bottom: 2vh;
 }
 
-#spaceImage {
+#space-image {
     border-radius: 2em;
     height: 450px;
     height: 59.7%;
@@ -150,7 +150,7 @@ input[placeholder="Subscribe to our daily email!"] {
     height: 31%;
 }
 
-#spotifyPlayer {
+#spotify-player {
     border-radius: 3em;
 }
 
@@ -165,14 +165,14 @@ input[placeholder="Subscribe to our daily email!"] {
     margin-bottom: 2vh;
 }
 
-#chuckCard {
+#chuck-card {
     padding: 10px;
     height: 780px;
     border-radius: 2em;
     margin-bottom: 2vh;
 }
 
-#chuckPic {
+#chuck-pic {
     border-radius: 2em;
     height: 450px;
     height: 59.7%;
@@ -191,16 +191,6 @@ input[placeholder="Subscribe to our daily email!"] {
     margin-bottom: 2vh;
 }
 
-.bottomContainer {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 5vh;
-}
-
-.topText {
-    margin-bottom: 15vh;
-}
-
 p {
     font-size: 35px;
 }
@@ -208,12 +198,6 @@ p {
 h5 {
     font-size: 45px;
 }
-
-.flexContainer {
-    display: flex;
-    justify-content: space-around;
-}
-
 
 @media only screen and (max-width: 1494px) {
     .comment-text {
@@ -232,12 +216,12 @@ h5 {
 }
 
 @media only screen and (max-width: 1024px) {
-    .myContainer {
+    .my-container {
      margin-bottom: 2vh;
         margin-top: 0vh;
     }
 
-    .container2 {
+    .container-2 {
         margin-top: 0vh;
     }
 
@@ -257,24 +241,25 @@ h5 {
         margin-bottom: 2vh;
     }
 
-    #container2 {
+    #container-2 {
         margin-bottom: 0px;
     }
 
-    .myContainer {
+    .my-container {
      margin-bottom: 0px;
     }
 }    
 
-@media only screen and (max-width: 740px) {
+@media only screen and (max-width: 745px) {
     .head-text {
         font-size: 420%;
         margin-bottom: 1vh;
+        margin-left: 18%;
     }
 }
 
 
-@media only screen and (max-width: 616px) {
+@media only screen and (max-width: 621px) {
     .head-text {
         font-size: 320%;
     }
@@ -295,11 +280,11 @@ h5 {
         font-size: 280%;
     }
 
-    .myContainer {
+    .my-container {
      margin-top: 0px;
     }
 
-    .container2 {
+    .container-2 {
         margin-top: 0px;
     }
 }
@@ -309,17 +294,17 @@ h5 {
         font-size: 220%;
     }
 
-    .myContainer,
-    .mycontainer2 {
+    .my-container,
+    .container-2 {
         width: 300px;
     }
 
-    .mycontainer2 {
+    .container-2 {
         margin-left: 2vw;
     }
 
-    .myContainer, 
-    #container2 {
+    .my-container, 
+    #container-2 {
         margin-left: 8vw;
     }
     
@@ -331,14 +316,14 @@ h5 {
 
     .spotify-player, 
     .beach-pic,
-    .chuckPic {
+    .chuck-pic {
         width: 280px;
     }
 }
 
 @media only screen and (max-width: 322px) {
-    .myContainer, 
-    .container2 {
+    .my-container, 
+    .container-2 {
         margin-left: 3vw;
     }
 }

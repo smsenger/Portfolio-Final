@@ -47,7 +47,7 @@ html {
   overflow: hidden;
 }
 
-.angryMusicCard {
+.angry-music-card {
   padding: 10px;
   display: block;
   overflow: hidden;
@@ -94,14 +94,14 @@ html {
 
 
 /* email formatting */
-.emailForm {
+.email-form {
   display: flex;
   margin-top: 50px;
   align-content: center;
   width: 55vw;
 }
 
-#exampleInputEmail1 {
+#example-input-mail1 {
   border-top-left-radius: .5em;
   border-bottom-left-radius: .5em;
 }
@@ -127,7 +127,7 @@ html {
 }
 
 @media only screen and (max-width: 1070px) {
-  .emailForm {
+  .email-form {
     flex-direction: column;
   }
 }
