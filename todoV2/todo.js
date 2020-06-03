@@ -134,9 +134,8 @@ app.delete('/api/todos/:id', (req, res) => {
     if(req.query.form) {
         res.redirect('/todo');
     } else {
-        res.json(todo);
-    }
-  res.send('Deleted item')                              //what is send back to user, must have a res
+        res.json(todo);                               //what is send back to user, must have a res
+    }                             
 })
 
   app.listen(8000, function () {

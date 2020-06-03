@@ -1,0 +1,69 @@
+body {
+	background-color: #B2E9FD;
+	margin-left: 120px;
+	margin-right: 100px;
+}
+
+.header h2 {
+	color: #DC4247;
+}
+
+.header p {
+	color: #50524F;  
+}
+
+.results {
+	margin-top: 20px;
+}
+
+
+#poster {
+	height: 350px;
+	border: 1px solid black;
+}
+
+h3 {
+	margin-left: -18px;
+	background-color: white;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+h4 {
+	border-radius: .25em;
+	padding-bottom: 4px;
+	padding-top: 2px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-right: -19px;
+	background-color: white;
+	font-size: 12px;
+	font-weight: bold;
+	color: white;
+	background-color: grey;
+}
+
+#b {
+	margin-bottom: -6px;
+	margin-left: -14px;
+}
+
+.watch-button {
+	height: 49%;
+	margin-top: 2%;
+}
+
+
+#watchlist {
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 25px;
+	max-width: 100%;
+	color: rgb(119, 119, 119);
+	font-family: 'Manrope', sans-serif;
+	font-size: 140%;
+	text-align: left;
+	border-radius: .25em;
+	background-color: white;
+}
+
