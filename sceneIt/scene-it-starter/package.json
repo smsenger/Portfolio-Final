@@ -1,0 +1,20 @@
+{
+  "name": "scene-it-starter",
+  "version": "1.0.0",
+  "description": "This repository contains all in-progress files for the \"Scene It\" app. This app utilizes the OMDB database to provide search capability for thousands of movies. The UI allows the user to search via keyword and save movies to a watchlist(stored on a linked separate page). The UI is fully responsive.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node todo.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smsenger/scene-it-starter.git"
+  },
+  "author": "Saesha Senger",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smsenger/scene-it-starter/issues"
+  },
+  "homepage": "https://github.com/smsenger/scene-it-starter#readme"
+}

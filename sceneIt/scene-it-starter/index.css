@@ -57,7 +57,8 @@ h4 {
 #watchlist {
 	padding-left: 5px;
 	padding-right: 5px;
-	padding-top: 25px;
+	padding-top: 20px;
+	padding-bottom: 10px;
 	max-width: 100%;
 	color: rgb(119, 119, 119);
 	font-family: 'Manrope', sans-serif;
