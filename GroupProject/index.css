@@ -140,10 +140,15 @@ input[placeholder="Subscribe to our daily email!"] {
     margin-bottom: 2vh;
 }
 
-#space-image {
+#space-image, 
+#space-video {
     border-radius: 2em;
     height: 450px;
     height: 59.7%;
+}
+
+#space-video {
+    display: none;
 }
 
 .space-place {

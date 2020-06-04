@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", function() {
         e.preventDefault();
         let searchString = $(".search-bar").val();
         let urlEncodedSearchString = encodeURIComponent(searchString);
-        axios.get("http://www.omdbapi.com/?apikey=b43843a0&s=" + urlEncodedSearchString).then(function(response) {
+        axios.get("https://www.omdbapi.com/?apikey=b43843a0&s=" + urlEncodedSearchString).then(function(response) {
             movie.innerHTML = renderMovies(response.data.Search);
             movieData = response.data.Search;
             return movieData;
