@@ -14,7 +14,7 @@ function getRandomIndex(max) {
 
 ///Sets space images from nasa api
 function getSpace() {
-  $.get('https://api.nasa.gov/planetary/apod?api_key=yhAGByOoN03Qq1qHf4S1IBX070g1Of5dMIrzjLdf')
+  $.get('https://api.nasa.gov/planetary/apod?api_key=QwweL5wp7rhdhr0ZBx0qddvzMvy2l14gk6EfryqL')
     .then(function (data2) {
       const img = document.getElementsByTagName('img')[3];
       console.log('data =', data2)
