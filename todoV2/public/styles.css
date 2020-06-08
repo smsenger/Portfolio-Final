@@ -1,8 +1,7 @@
-
-html, 
-body, 
-button {
-    background-image: url('/images/space-background.jpg');
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    height: 100vh;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -12,7 +11,7 @@ body {
 }
 
 .outer-div {
-    border: 2px solid #9d95e2;
+    border: 4px solid #9d95e2;
 
 }
 
@@ -22,26 +21,14 @@ body {
     margin-left: 5px;
 }
 
-/* .first-add {
-    color: #9d95e2;
-    margin-left: 5px;
-    border: #9d95e2;
-    width: 100%;
-    text-align: left;
-}
-
-.first-add:hover {
-    background-image: url('/images/button-hover.jpg');
-    color: white;
-} */
-
 .top-form {
-    margin:15px 0px 0px 0px;
+    margin-top: 5px;
     width: 100%;
 }
 
 .top-input {
     width: 80%;
+    border: 2px solid #9d95e2;
 }
 
 .top-button {
@@ -74,35 +61,24 @@ input[type=text] {
     -webkit-text-fill-color: #9d95e2 !important;
     font-size: 70%;
     padding-left: 2%;
+    border: 2px solid #9d95e2;
 }
-
-/* button[type="button"] {
-    background-color: #9d95e2;
-    border: 1px solid rgb(226, 11, 11);
-    color: white;
-    width: 20%;
-}  */
 
 #submit {
-    border: 1px solid #9d95e2;
-    color: white;
-    margin: 0px;
-}
-
-#submit:hover {
-    background-image: url('/images/button-hover.jpg');
+    background-color: #9d95e2;;
+    border: 1px solid #fdbb2d;
     color: white;
 }
 
 #edit {
     width: 80%;
     display: flex;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 5px 0px;
 }
 
 #delete {
     width: 20%;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 5px 0px;
 }
 
 .delete {
@@ -113,16 +89,12 @@ input[type=text] {
 .task-item {
     color: #9d95e2;
     font-weight: bold;
-    margin-top: 35px;
+    margin-top: 25px;
 }
 
 .button-div1 {
     border-top: 1px solid #9d95e2;
     border-bottom: 1px solid #9d95e2;
-}
-
-strong {
-    color: #9d95e2;
 }
 
 @media only screen and (min-width: 320px) {
