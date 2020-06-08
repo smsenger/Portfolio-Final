@@ -37,12 +37,6 @@ body {
     text-decoration: none;
 }
 
-@media (max-width: 1040px) {
-.nav-style {
-    display: block;
-}
-}
-
 .about, 
 h1, 
 .lead {
@@ -62,15 +56,6 @@ h1,
     color: white;
     opacity: .7;
 }
-
-/* .email {
-    text-transform: lowercase;
-    color: white;
-    opacity: .7;
-    font-size: 33px;
-    margin-top: 10%;
-    margin-bottom: 0px;
-} */
 
 .jumbo-line {
     border-top: 1px solid rgb(95, 95, 95);
