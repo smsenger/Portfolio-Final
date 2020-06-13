@@ -17,7 +17,7 @@
 <body>
     <div class="fixed-top nav-style">
         <div class="collapse" id="navbarToggleExternalContent">
-            <div class="bg p-4 items" style="background-image: url('images/interlaken.jpg');">
+            <div class="bg p-4 items" style="background-image: url('images/watercolor.png');">
                 <div><a class="toggle-label" href="#about">About Me</a></div>
                 <div><a class="toggle-label" href="#skills">My Skills</a></div>
                 <div><a class="toggle-label" href="#projects">My Projects</a></div>
@@ -34,7 +34,7 @@
     </div>
 
 
-    <div class="jumbotron" style="height: 100vh; background-image: url('images/interlaken.jpg'); border-radius: 0em;">
+    <div class="jumbotron" style="height: 100vh; background-image: url('images/watercolor.png'); border-radius: 0em;">
         <h1 class="display-4 h1">Saesha Senger, PhD</h1>
         <p class="lead">Full stack developer, scholar, musician.</p>
         <!-- <p class="email">saesha.senger@gmail.com</p> -->
@@ -83,31 +83,34 @@
                 <img src="images/my-stuff.png" class="line">
                 <div class="my-text" id="skills">MY SKILLS</div>
             </div>
-            <div class="container">
-                <p class="summary">My skills provide the ability to complete a wide range of
-                    tasks while staying compliant with company best practices.</p>
+            <div class="intro-adds">
+                <p class="summary skills" >My skills provide the ability to complete a wide range of
+                    tasks while staying compliant with company best practices. The images below summarize my familiarity
+                    with various technologies.</p>
                 <div class="logos">
-                    <div>
-                        <img src="images/CSS.png" alt="CSS 3" class="logo1" />
-                        <img src="images/git.jpg" alt="git" class="logo1" />
-                        <img src="images/html5.jpg" alt="HTML 5" class="logo1" />
-    
-                        <img src="images/javascript.jpg" alt="JavaScript" class="logo2" />
-                        <img src="images/nodejs.jpg" alt="Node.js" class="logo2" />
-                        <img src="images/python.jpg" alt="Python" class="logo2" />
-                        
-                        <img src="images/Postgresql.png" alt="Postgres" class="logo2" />
-                        <img src="images/Sequelize.png" alt="Sequelize" class="logo2" />
-                        <img src="images/SQL.jpg" alt="SQL" class="logo2" />
-                        
-                        <img src="images/Logo_di_Heroku.png" alt="Heroku" class="logo2" />
-                        <img src="images/REACT.png" alt="REACT" class="logo2" />
+                    <div class="logo1">
+                        <img src="images/CSS.png" alt="CSS 3" class="logo2"/>
+                        <img src="images/git.jpg" alt="git"class="logo2" />
+                        <img src="images/html5.jpg" alt="HTML 5" class="logo2" />
+                        <img src="images/javascript.jpg" alt="JavaScript" class="logo2"  />
+                    </div>
+                    <div class="logo1">
+                        <img src="images/nodejs.jpg" alt="Node.js" class="logo2"  />
+                        <img src="images/python.jpg" alt="Python" class="logo2"  />
+                        <img src="images/Postgresql.png" alt="Postgres" class="logo2"  />
+                        <img src="images/Sequelize.png" alt="Sequelize" class="logo2"  />
+                    </div>
+                    <div class="logo1">
+                        <img src="images/SQL.jpg" alt="SQL" class="logo2"  />
+                        <img src="images/Logo_di_Heroku.png" alt="Heroku" class="logo2"  />
+                        <img src="images/REACT.png" alt="REACT" class="logo2"  /> 
+                        <img src="images/redux.png" alt="redux" class="logo2" />
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="label">
+        <div class="label2">
             <div class="about">
                 <img src="images/my-stuff.png" class="line" />
                 <div class="my-text" id="projects">MY PROJECTS</div>
@@ -115,18 +118,22 @@
 
             <div style="margin-left: 43px;">
                 <div class="intro-adds">
-                    <p class="summary"><strong>TaskSpace</strong></p>
+                    <img class="project-image1" src="images/taskspace2.png" />
+                    <p class="summary" id="project-title"><strong>TaskSpace</strong></p>
                     <p class="summary">The <i>TaskSpace</i> application allows a user to generate a list of tasks to
                         complete. The user can create a new
                         task and edit or delete a task. Combined with a
                         captivating visual presentation, TaskSpace creates a one-of-a-kind experience for those who put
                         organization first. To see first hand what this app can
-                        do for you, <a href="https://taskspace.herokuapp.com/todo" target="_blank">click here</a>.
+                        do for you, <a href="https://taskspace.herokuapp.com/todo" target="_blank">click here</a>. Please forgive the slight delay 
+                        in deployment. This site is hosted through a free account on Heroku. For the 
+                        GitHub repository, <a href="https://github.com/smsenger/EJS-Templates" target="_blank">click here</a>.
                     </p>
                 </div>
 
-                <div class="intro-adds">>
-                    <p class="summary"><strong>Enhance Your Vibes</strong></p>
+                <div class="intro-adds">
+                    <img class="project-image" src="images/goodvibes.png" />
+                    <p class="summary" id="project-title"><strong>Enhance Your Vibes</strong></p>
                     <p class="summary">The <i>Enhance Your Vibes</i> web application provides both an escape from our
                         stressful world
                         and a way to channel feelings of
@@ -137,7 +144,7 @@
                         styled with flames and dark colors. The APIs utilized on each page (7 in total) are below:
                     </p>
 
-                    <p class="summary" style="margin-top: 65px; margin-left: 190px;"><u>APIs Used</u></p>
+                    <p class="summary" style="margin-top: 65px; margin-left: 205px;"><u><b>APIs Used</b></u></p>
                     <ul class="summary">
                         <li style="margin-left: 80px;">Good Vibes: Random cat pictures, uplifting quotes, NASA Astronomy
                             Image of the Day, Chuck
@@ -147,33 +154,45 @@
                             jokes" (Also includes embedded
                             "Sad Songs" Spotify playlist and GIF of hairless cat)</li>
                     </ul>
-                    <p class="summary" style="margin-top: 50px;"">To use <i>Enhance Your Vibes</i>, <a href="
-                        GroupProject/index.html" target="_blank">click here</a>.</p>
+                    <p class="summary" style="margin-top: 50px;"">To enhance <i>your</i> vibes, <a href="
+                        GroupProject/index.html" target="_blank">click here</a>. For the GitHub repository, 
+                        <a href="https://github.com/smsenger/Group-Project-Front-End">
+                        click here</a>.</p>
 
                 </div>
 
-                <div class="intro-adds">>
-                    <p class="summary"><strong>Scene It</strong></p>
+                <div class="intro-adds">
+                    <img class="project-image" src="images/sceneit.png" />
+                    <p class="summary" id="project-title"><strong>Scene It</strong></p>
                     <p class="summary">
                         The <i>Scene It</i> app utlizes the OMDB API to provide search capability for thousands of
                         movies. The UI allows the user to search via
                         keyword and save movies to a watchlist. The watchlist is stored on a separate linked page. The
                         Scene It UI is fully responsive, ensuring ease of
                         use on multiple screen sizes. To see <i>Scene It</i>'s capabilities, <a
-                            href="sceneIt/scene-it-starter/index.html" target="_blank">click here</a>.
-                    </p>
+                            href="sceneIt/scene-it-starter/index.html" target="_blank">click here</a>. For the GitHub repository, 
+                            <a href="https://github.com/smsenger/scene-it-starter" target="_blank">click here</a>
+.                    </p>
                 </div>
 
                 <div class="intro-adds">
-                    <p class="summary"><strong>EventSet</strong></p>
-                    <p class="summary">This application allows users to create an account, and add, edit, or delete events 
-                        or personal or professional contacts. This allows the user to store contact information and events 
-                        such as birthdays, anniversaries, exams, and presentations in one location. All data is stored in a 
-                        database. The UI was designed for ease of use and responsiveness to allow user to use the app without 
-                        reading instructions or encountering frustrating obstacles to utilizing <i>EventSet</i>'s features. 
-                        Experience the minimalistic design and obvious usefulness of <i>EventSet</i> yourself by 
-                        <a href="https://eventset.herokuapp.com/" target="_blank">clicking here</a>.</p>
-                    
+                    <img class="project-image" src="images/eventset.png" />
+                    <p class="summary" id="project-title"><strong>EventSet</strong></p>
+                    <p class="summary">This application allows users to create an account, and add, edit, or delete
+                        events
+                        or personal or professional contacts. This allows the user to store contact information and
+                        events
+                        such as birthdays, anniversaries, exams, and presentations in one location. All data is stored
+                        in a
+                        database. The UI was designed for ease of use and responsiveness to allow user to use the app
+                        without
+                        reading instructions or encountering frustrating obstacles to utilizing <i>EventSet</i>'s
+                        features.
+                        Experience the minimalistic design and obvious usefulness of <i>EventSet</i> yourself by
+                        <a href="https://eventset.herokuapp.com/" target="_blank">clicking here</a>. Please forgive the slight delay 
+                        in deployment. This site is hosted through a free account on Heroku. For the 
+                        GitHub repository, <a href="https://github.com/smsenger/EventSet" target="_blank">click here</a>.</p>
+
                 </div>
 
             </div>
